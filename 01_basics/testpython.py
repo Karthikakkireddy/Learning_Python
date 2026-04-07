@@ -1,3 +1,3 @@
 import sys
 print("Heelo")
-print(sys.version)
+print(sys.ver
