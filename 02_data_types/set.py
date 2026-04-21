@@ -12,3 +12,4 @@ only_my_phones_uncommon  = my_phones - frind_phones
 print(only_my_phones_uncommon)
 
 print(f"Is 'Iphone 14+' in friend phone ? {'Iphone 14+' in frind_phones}")
+
