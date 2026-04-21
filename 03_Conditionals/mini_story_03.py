@@ -1,11 +1,14 @@
-size_cup = input("Choose your size - \n Available Options - Small , Medium , Large : ").lower()
-price
+size_cup = input("Choose your size - \n Available Options -  (Small , Medium , Large ) - ").lower()
+
 
 if(size_cup == 'small'):
-    price = 10
-if size_cup == 'medium':
-    price = 15
-if size_cup == 'large':
-    price = 20
+    print(f"Your bill for size  {size_cup } : 10 rupees")
 
-print(f"Your bill is : {price} for size : {size_cup}")
+elif size_cup == 'medium':
+    print(f"Your bill for size  {size_cup} : 15 rupees")
+
+elif size_cup == 'large':
+    print(f"Your bill for size  {size_cup} : 20 rupees")
+else:
+    print(f"Unknown cup size")
+
