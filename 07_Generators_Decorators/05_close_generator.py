@@ -3,9 +3,9 @@ def chai_stall():
         while True:
             order = yield "Waiting for chai order"
     except GeneratorExit:
-        # When ever python finished the script it automatically uses .close() which 
-        # Throws a special exception named "GeneratorExit" exception. 
-        # This # next(stall) only "Stall closed, No more chai" gets printed
+    # When ever python finished the script it automatically uses .close() which 
+    # Throws a special exception named "GeneratorExit" exception. 
+    # This # next(stall) only "Stall closed, No more chai" gets printed
         print("Stall closed, No more chai")
 
 stall = chai_stall()
