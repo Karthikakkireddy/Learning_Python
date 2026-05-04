@@ -7,9 +7,9 @@ class TeaLeaf:
     def age(self):
         return self._age + 2
 
-    @age.getter
-    def age(self):
-        return self._age
+    # @age.getter
+    # def age(self):
+    #     return self._age
     @age.setter
     def age(self, age):
         if 1 <= age <= 5:
